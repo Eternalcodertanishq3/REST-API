@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;;
+    background-color: rgb(23, 23, 23);;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    background: rgb(33, 33, 33);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(41, 182, 246);
+}
+
+button{
+    display: block;
+    width: 100%;
+    padding: 9px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    background-color:  rgb(41, 182, 246);
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: rgba(87, 171, 188, 0.552);
+}
+
+#post-container {
+    margin-top: 30px;
+}
+
+.post{
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.post:hover {
+    background-color: #f0f0f0;
+}
+
+.post h2 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+
+.post p {
+    margin-bottom: 10px;
+}
+
+.comments {
+    margin-top: 10px;
+    padding-left: 20px;
+    border-left: 2px solidrgb(41, 182, 246);
+}
+
+
+.comments p {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
